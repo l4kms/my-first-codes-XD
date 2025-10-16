@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    while (1) {
+        int a;
+        cout << "vvedi chislo: ";
+        cin >> a;
+        if (a % 2 == 0)
+        {
+            cout << "chetnoe: " << endl;
+        }
+
+        else if (a % 2 == 1)
+        {
+            cout << "nechetnoe: " << endl; # if u neded change it, it writed partly on russian ( this messages for all cout );
+        }
+    }
+    return 0;
+}
