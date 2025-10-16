@@ -1,0 +1,42 @@
+#include <iostream>
+#include <Windows.h>
+using namespace std;
+int main() {
+ int num1, num2;
+ char znak;
+ while (1) {
+  cout << "VvediA" << endl;
+  cin >> num1;
+  cout << "VvediB" << endl;
+  cin >> num2;
+  cout << "VvediZnak" << endl;
+  cin >> znak;
+  if (znak == '+')
+  {
+   int c = num1 + num2;
+   cout << "Rezult " << c << endl;
+
+  }
+  if (znak == '-')
+  {
+   int c = num1 - num2;
+   cout << "Rezult " << c << endl;
+
+  }
+  if (znak == '/')
+  {
+   if (num2 == 0)
+   {
+    cout << "invalid ti koncheni" << endl; # if u neded change it, it writed partly on russian ( this messages for all cout );
+   }
+   int c = num1 / num2;
+   cout << "Rezult " << c << endl;
+
+  }
+  if (znak == '*')
+  {
+   int c = num1 * num2;
+   cout << "Rezult " << c << endl;
+  
+   return 0;
+  }
