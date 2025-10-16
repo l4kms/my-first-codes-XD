@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    while (1) {
+        int a;
+        cout << "vvedi vremya: ";
+        cin >> a;
+        if (a>=6 && a<=11)
+        {
+            cout << "utro: " << endl;
+        }
+
+        else if (a >= 12 && a <= 17)
+        {
+            cout << "den: " << endl;
+        }
+        else if (a >= 18 && a <= 23)
+        {
+            cout << "vecher: " << endl; # if u neded change it, it writed partly on russian ( this messages for all cout );
+        }
+        else if (a >= 0 && a <= 5)
+        {
+            cout << "noch: " << endl;
+        }
+        else
+        {
+            cout << "neverno: " << endl;
+        }
+    }
+    return 0;
+}
